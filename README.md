@@ -42,3 +42,7 @@ Long polling helps reduce your cost of using Amazon SQS by reducing the number o
 
 When you stop an instance, AWS shut it down. AWS don't charge usage for a stopped instance, or data transfer fees, but do charge for the storage for any Amazon EBS volumes. See: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Stop_Start.html
 
+You can only stop and restart your instance if it has an Amazon EBS volume as its root device. See: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Stop_Start.html
+
+
+
