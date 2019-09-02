@@ -40,3 +40,5 @@ https://github.com/aws/aws-cli
 Long polling helps reduce your cost of using Amazon SQS by reducing the number of empty responses. You can enable long polling using the AWS Management Console by setting a Receive Message Wait Time to a value greater than 0. See: https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-long-polling.html
 
 
+When you stop an instance, AWS shut it down. AWS don't charge usage for a stopped instance, or data transfer fees, but do charge for the storage for any Amazon EBS volumes. See: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Stop_Start.html
+
