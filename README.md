@@ -36,3 +36,7 @@ AVAILABLE COMMANDS
 
 
 https://github.com/aws/aws-cli
+
+Long polling helps reduce your cost of using Amazon SQS by reducing the number of empty responses. You can enable long polling using the AWS Management Console by setting a Receive Message Wait Time to a value greater than 0. See: https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-long-polling.html
+
+
